@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MHF WEATHER DASHBOARD</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>MHF WEATHER DASHBOARD</h1>
+
+    <div class="controls">
+      <input type="text" id="city-input" placeholder="Masukkan nama kota..." />
+      <button onclick="addCity()">Add City</button>
+      <button onclick="toggleDarkMode()">🌙 / ☀️ Mode</button>
+    </div>
+
+    <div class="city-list" id="city-list">
+      <!-- Cuaca dan grafik tiap kota akan masuk di sini -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
